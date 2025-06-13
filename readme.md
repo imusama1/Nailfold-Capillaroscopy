@@ -33,16 +33,6 @@ The processing pipeline consists of sequential stages:
 ### Figure 2: Workflow Diagram
 ![Processing Workflow](figs/figure2.png) 
 
-```mermaid
-graph TD
-    A[Raw Image] --> B[Line Detection]
-    B --> C[Cropping & Rotation]
-    C --> D[Channel Splitting]
-    D --> E[Green Channel Enhancement]
-    E --> F[Denoising]
-    F --> G[Adaptive Thresholding]
-    G --> H[Contour Detection]
-
 ## Installation
 ### Dependencies
 - Python 3.8+
