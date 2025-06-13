@@ -48,9 +48,9 @@ pip install opencv-python numpy matplotlib scikit-image
 
 ## Usage
 1. Place nailfold capillaroscopy images in `Input Images/` directory
-2. Execute main processing script:
+2. Run main processing notebook:
 ```python
-python process_capillaries.py
+main.ipynb
 ```
 
 ### Key Parameters
