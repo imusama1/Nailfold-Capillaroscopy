@@ -1,9 +1,7 @@
-Here's the updated README with figure placeholders, removed emojis, and a workflow diagram section:
 
-```markdown
 # Capillary Segmentation in Nailfold Capillaroscopy Images
 
-![Nailfold Capillaroscopy Example](figs/figure1.png)
+![Nailfold Capillaroscopy Example](figs/figure1.png)  <!-- Placeholder for Figure 1 -->
 
 Traditional image processing pipeline for detecting and segmenting capillaries in nailfold capillaroscopy images using classical computer vision techniques.
 
@@ -44,7 +42,6 @@ graph TD
     E --> F[Denoising]
     F --> G[Adaptive Thresholding]
     G --> H[Contour Detection]
-```
 
 ## Installation
 ### Dependencies
