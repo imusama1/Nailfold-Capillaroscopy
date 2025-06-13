@@ -1,7 +1,7 @@
 
 # Capillary Segmentation in Nailfold Capillaroscopy Images
 
-![Nailfold Capillaroscopy Example](figs/figure1.png)  <!-- Placeholder for Figure 1 -->
+![Nailfold Capillaroscopy Example](figs/figure1.png) 
 
 Traditional image processing pipeline for detecting and segmenting capillaries in nailfold capillaroscopy images using classical computer vision techniques.
 
@@ -31,7 +31,7 @@ The processing pipeline consists of sequential stages:
 
 ## Pipeline Architecture
 ### Figure 2: Workflow Diagram
-![Processing Workflow](figs/figure2.png)  <!-- Placeholder for Figure 2 -->
+![Processing Workflow](figs/figure2.png) 
 
 ```mermaid
 graph TD
@@ -137,35 +137,3 @@ space_below_line=-2 # Vertical adjustment
 
 ## License
 [MIT License](LICENSE.md)
-```
-
-### Directory Structure Recommendation:
-```
-project-root/
-├── figs/
-│   ├── figure1.png    # Nailfold capillaroscopy example
-│   ├── figure2.png    # Workflow diagram
-│   ├── figure3.png    # Accurate results
-│   ├── figure4.png    # Almost accurate results
-│   ├── figure5.png    # Inaccurate results
-│   ├── figure6.png    # Line detection
-│   ├── figure7.png    # Cropping/rotation
-│   └── figure8.png    # Enhanced/denoised images
-├── Input Images/      # Sample images
-├── process_capillaries.py
-├── README.md
-└── LICENSE.md
-```
-
-### Workflow Diagram Description:
-For Figure 2 (workflow diagram), create an image showing these connected components:
-1. Raw Input Image (icon: camera/image)
-2. Line Detection (icon: straight line)
-3. Cropped Region (icon: crop tool)
-4. RGB Channels (icon: color circles)
-5. Enhanced Green Channel (icon: brightness/contrast)
-6. Denoised Image (icon: filter)
-7. Thresholded Image (icon: binary image)
-8. Capillary Contours (icon: outlined shapes)
-
-The diagram should show arrows connecting each processing stage with brief descriptions of the key operations at each step. This visual pipeline helps users quickly understand the sequence of operations.
