@@ -1,7 +1,7 @@
 
 # Capillary Segmentation in Nailfold Capillaroscopy Images
 
-![Nailfold Capillaroscopy Example](figs/figure1.png) 
+![Nailfold Capillaroscopy](figs/figure1.png) 
 
 Traditional image processing pipeline for detecting and segmenting capillaries in nailfold capillaroscopy images using classical computer vision techniques.
 
@@ -76,17 +76,17 @@ space_below_line=-2 # Vertical adjustment
 ### Figure 5: Test Data with Inaccurate Results
 ![Inaccurate Results](figs/figure5.png)
 
-## Figure 6: Test data masked with the detected line
-![Masked Images](figs/figure6.png)
+## Figure 6: Test Data masked with the Detected Line
+![Detected Lines](figs/figure6.png)
 
-### Figure 7: Line Detection Results
-![Detected Lines](figs/figure7.png)
+### Figure 7:  Test Data Cropped and Rotated with Reference to the Detected Line
+![Test Data Cropped and Rotated](figs/figure7.png)
 
-### Figure 8: Cropping and Rotation Results
-![Cropped and Rotated Images](figs/figure8.png)
+### Figure 8: Enhanced Green Channel and Denoised
+![Enhanced Green Channel and Denoised](figs/figure8.png)
 
-### Figure 9: Enhanced and Denoised Images
-![Enhanced and Denoised Channels](figs/figure9.png)
+### Figure 9: Segmented and contoured capillaries
+![Segmented and contoured capillaries](figs/figure9.png)
 
 ### Performance Comparison
 | Image       | Detected | Ground Truth | Accuracy |
