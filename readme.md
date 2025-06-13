@@ -110,7 +110,7 @@ space_below_line=-2 # Vertical adjustment
 - No capillary shape priors used
 - Requires expert validation for clinical use
 
-> "The contouring algorithm lacks explicit capillary definition, potentially identifying noise as capillaries" - Project Report
+> "The contouring algorithm lacks explicit capillary definition, potentially identifying noise as capillaries"
 
 ## Future Work
 1. Incorporate deep learning for capillary recognition
